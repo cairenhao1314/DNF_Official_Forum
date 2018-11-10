@@ -1,0 +1,265 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.HtmlAll{
+	position: relative;
+}
+.header{
+	height: 80px;
+	background-color: black;
+	position: relative;
+	font-weight: bolder;
+}
+h3{
+	position: absolute;
+	z-index: 10;
+	font-size: 40px;
+	color: #fed674;
+	left: 470px;
+	top: 42px;
+}
+h3 a{
+	font-weight: normal;
+}
+.a{
+	position: absolute;
+	display: inline-block;
+	height: 80px;
+	width: 180px;
+	top: -75px;
+	left: 125px;
+	background:url(../img/head/logo.png)no-repeat;
+	z-index: 1;
+	cursor: pointer;
+}
+.section div:nth-child(2) input{
+	display: inline-block;
+	position: absolute;
+	height: 35px;
+	width: 250px;
+	left: 15px;
+	background: rgba(0,0,0,0);
+	color: #666666;
+	outline: none;
+	z-index: 5;
+	border: none;
+}
+.section{
+	margin: auto;
+	width: 1380px;
+	position: relative;
+}
+.Smalldiv{
+	top: 140px;
+	left: 124px;
+	width: 1100px;
+	background-color: #ffffff;
+	margin-top: -430px;
+	margin-left: 120px;
+}
+.Smalldiv div:first-child{
+	float: left;
+}
+.Smalldiv div:first-child{
+	width: 200px;
+	background-color: #383635;
+	display: flex;
+}
+.Smalldiv div:first-child ul{
+	position: relative;
+	width: 100%;
+	list-style-type: none;
+	left: -50px;
+	cursor: pointer;
+}
+.Smalldiv div:first-child ul:first-child li:hover{
+	transition: color 0.5s ease 0s; 
+	color:  #ec380f;
+}
+.Smalldiv div:first-child ul:first-child li{
+	border-bottom: 1px solid #2d2b2a;
+	line-height:30px;
+	font-size: 15px;
+	color: white;
+	font-family: "微软雅黑";
+	display: block;
+	padding-left: 30px;
+}
+.Smalldiv div:nth-child(2){
+}
+.Smalldiv div{
+	display: inline-block;
+	width: 900px;
+	background-color: white;
+	float: left;
+	overflow: hidden;
+}
+.Smalldiv div:nth-child(2){
+	box-shadow: 0 1px 10px 1px rgba(0,0,0,0.3);
+}
+.Smalldiv div ul:nth-child(2){
+	margin-top: 30px;
+}
+.Smalldiv div ul li{
+	position: relative;
+	left: 50px;
+	border-bottom: 1px solid #dedede;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	padding-top: 15px;
+}
+.Smalldiv div ul:nth-child(3) li:hover{
+	transition: background-color 0.5s ease 0s; 
+	background-color: #d8d8d3;
+	
+}
+.Smalldiv div ul li a{
+	color: #333333;
+	line-height: 2em;
+	cursor: pointer;
+}
+.Smalldiv div ul{
+	list-style-type: none;
+	}
+img{
+	position: relative;
+	height: 560px;
+	left: -289px;
+
+}
+.bg{
+	z-index: -1;
+}
+.img{
+	margin-top: -15px;
+	height: 60px;
+	left: 0px;
+    -webkit-filter: grayscale(100%); 
+    -moz-filter: grayscale(100%); 
+   /* -ms-filter: grayscale(100%); */
+    -o-filter: grayscale(100%); 
+    filter: grayscale(100%); 
+   /* filter: gray; */
+}
+p{
+	position: relative;
+	display: inline-block;
+	margin-left: 30px;
+	top: -15px;
+}
+.size{
+	color: #0088cc;
+	cursor: pointer;
+}
+span{
+	margin-top: 30px ;
+	margin-left: 50px;
+	display: inline-block;
+	height: 45px;
+	width: 800px;
+	border: 1px solid #dedede;
+	background-color: #f6f6f6;
+}
+h2{
+	font-size: 20px;
+	margin-top: 30px;
+	margin-left: 50px;
+	font-family: "微软雅黑";
+	color: #333;
+}
+.fa .fa-search{
+	display: inline-block;
+	height: 30px;
+}
+#i1{
+	cursor: pointer;
+	color: white;
+	position: absolute;
+	font-size: 25px;
+	left: 0px;
+	z-index: 1;
+	top: 5px;
+	left: 270px;
+	font-weight: normal;
+	z-index: 5;
+}
+h5{
+	height: 35px;
+	width: 300px;
+	background-color: #000000;
+	border: 1px solid #666666;
+	border-radius: 50px;
+	top: -55px;
+	left: 330px;
+	position: absolute;
+}
+h5:hover{
+		transition: border-color 0.5s ease 0s; 
+	    border-color:#ffffff;
+}
+button{
+	position: absolute;
+	height: 50px;
+	width: 50px;
+	background-color: white;
+	z-index: 10;
+}
+h4{
+	position: absolute;
+	color: white;
+    line-height: 30px;
+	text-align: center;
+	background-color: #ec380f;
+	border-radius: 20px;
+	height: 30px;
+	width: 100px;
+	left: 1120px;
+	top: -54px;
+	font-family: "微软雅黑";
+	font-weight: normal;
+	cursor: pointer;
+}
+h4:hover{
+	transition: background-color 0.2s ease 0s;
+	background-color: #dc380f;
+}
+.footer{
+	margin-top: 30px;
+	position: relative;
+	float: left;
+	left: -380px;
+	width: 2000px;
+	background-color: #f5f5f5;
+	text-align: center;
+}
+.footer ul{
+	display: inline-block;
+	margin-top: 20px;
+	text-align: center;
+}
+.footer ul li{
+	display: inline-block;
+	border-right: 1px solid #888;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #888;
+}
+.footer ul li:last-child{
+	border-right: none;
+}
+
+.footer a{
+	display:block;
+	color: #888;
+	margin-bottom: 40px;
+	margin-top: 10px;
+}
+.Smalldivdiv ul li a:last-child{
+	color: #c8c8cd;
+	float: right;
+	margin-right: 20px;
+}
+.Smalldivdiv ul li{
+	margin-right: 100px;
+}
