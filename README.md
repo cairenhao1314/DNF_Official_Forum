@@ -1,9 +1,10 @@
 # DNF_Official_Forum
 ## 本项目仅用于个人学习
 ### DNF官方论坛模仿（JSP+Servlet+maven）
-#### 工具：
+#### 工具+环境：
 ##### IDEA 
 ##### Tomcat 8.0
+##### JDK1.8
 
 #### 暂时完成的功能
 * 用户的注册（昵称，手机号码的实时校验）
@@ -17,12 +18,13 @@
 * 用户修改头像，个人信息
 * 帖子分模块展示
 * 服务器开启时，自动同步本地资源。关闭服务器备份文件。（防止上传的头像文件丢失）
+* 统计在线人数和历史访问量
 
 >>网站展示<br>
 首页
 <img src="https://github.com/cairenhao1314/DNF_Official_Forum/blob/master/images/index.jpg" alt="首页预览" width=750px />
-注册页面
-<img src="https://github.com/cairenhao1314/DNF_Official_Forum/blob/master/images/login.jpg" alt="注册预览" width=750px />
+登录页面
+<img src="https://github.com/cairenhao1314/DNF_Official_Forum/blob/master/images/login.jpg" alt="登录页面预览" width=750px />
 主题帖
 <img src="https://github.com/cairenhao1314/DNF_Official_Forum/blob/master/images/posts.png" alt="主题帖预览" width=750px />
 帖子详情页面
