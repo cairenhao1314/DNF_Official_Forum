@@ -29,3 +29,7 @@
 <img src="https://github.com/cairenhao1314/DNF_Official_Forum/blob/master/images/posts.png" alt="主题帖预览" width=750px />
 帖子详情页面
 <img src="https://github.com/cairenhao1314/DNF_Official_Forum/blob/master/images/postinfo.jpg" alt="帖子详情页面预览" width=750px />
+
+＃因为是第一个独立做的论坛系统，而且在一个星期赶工出来的，所有很多地方都是草草了事，很多CSS样式嵌套在HTML标签中。
+下面的计划：大概在一月左右会推翻重做本系统。
+会慢慢实现之前预期的大部分功能，尽量与官网一致:)感谢支持
